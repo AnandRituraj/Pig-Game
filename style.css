@@ -28,6 +28,7 @@ main {
 	width: 100rem;
 	height: 60rem;
 	background-color: rgba(255, 255, 255, 0.35);
+	-webkit-backdrop-filter: blur(200px);
 	backdrop-filter: blur(200px);
 	filter: blur();
 	box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.25);
@@ -116,6 +117,7 @@ main {
 
 	background-color: white;
 	background-color: rgba(255, 255, 255, 0.6);
+	-webkit-backdrop-filter: blur(10px);
 	backdrop-filter: blur(10px);
 
 	padding: 0.7rem 2.5rem;
